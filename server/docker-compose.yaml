@@ -1,0 +1,27 @@
+services:
+  backend-todo-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+    ports:
+      - "5010:3000"
+
+    environment:
+      PORT: 3000
+      DB_HOST: ${DB_HOST}
+      DB_USER: ${DB_USER}
+      DB_PASSWORD: ${DB_PASSWORD}
+      DB_DATABASE: ${DB_DATABASE}
+
+    volumes:
+      - .:/app
+      - /app/node_modules
+
+    networks:
+      - todo_network
+
+networks:
+  todo_network:
+    external: true
+    name: mysql-with-docker-compose_todo_network
