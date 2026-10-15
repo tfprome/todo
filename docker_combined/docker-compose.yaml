@@ -1,0 +1,77 @@
+services:
+
+  mysql:
+    image: mysql:8.0
+    container_name: mysql_container_training
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
+      MYSQL_USER: ${MYSQL_USER}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+    ports:
+      - "3344:3306"
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "root", "-proot"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+      start_period: 10s
+    volumes:
+      - db_data_external:/var/lib/mysql
+    networks:
+      - devops-training
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin:latest
+    container_name: phpmyadmin_container_training
+    restart: always
+    environment:
+      PMA_HOST: mysql
+      PMA_USER: root
+      PMA_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+    ports:
+      - "8090:80"
+    depends_on:
+      - mysql
+    networks:
+      - devops-training
+
+  
+
+  frontend-todo-app:
+    build:
+      context: ../frontend
+      dockerfile: Dockerfile
+    ports:
+      - "5010:5000"
+    environment:
+      - VITE_API_URL=${VITE_API_URL}
+    networks:
+      - devops-training
+
+  backend-todo-app:
+    build:
+      context: ../server
+      dockerfile: Dockerfile
+    ports:
+      - "5011:3000"
+    environment:
+      PORT: 3000
+      DB_HOST: ${DB_HOST}
+      DB_USER: ${DB_USER}
+      DB_PASSWORD: ${DB_PASSWORD}
+      DB_DATABASE: ${DB_DATABASE}
+    depends_on:
+      mysql:
+        condition: service_healthy
+    networks:
+      - devops-training
+
+volumes:
+  db_data_external:
+    external: true
+
+networks:
+  devops-training:
+    external: true

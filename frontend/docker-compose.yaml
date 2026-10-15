@@ -4,9 +4,15 @@ services:
       context: .
       dockerfile: Dockerfile
     ports:
-      - "5012:5000"
+      - "5014:5000"
     environment:
       - VITE_API_URL=${VITE_API_URL}
     volumes:
       - .:/app
       - /app/node_modules
+    networks:
+      - devops-training
+
+networks:
+  devops-training:
+    external: true

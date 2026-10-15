@@ -15,7 +15,7 @@ services:
     volumes:
       - db_data:/var/lib/mysql                        # Persist data in a Docker volume
     networks:
-      - todo_network
+      - devops-training
 
   phpmyadmin:
     image: phpmyadmin/phpmyadmin:latest                 # Use the latest phpMyAdmin image
@@ -30,10 +30,11 @@ services:
     depends_on:
       - mysql                                           # Ensure that the MySQL container starts before phpMyAdmin
     networks:
-      - todo_network
+      - devops-training
 
 volumes:                                              # Define volume for data persistence
   db_data:
 
 networks:                                             # Define custom network
-  todo_network:
+  devops-training:
+    external: true

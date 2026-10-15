@@ -5,7 +5,7 @@ services:
       dockerfile: Dockerfile
 
     ports:
-      - "5010:3000"
+      - "5013:3000"
 
     environment:
       PORT: 3000
@@ -14,14 +14,9 @@ services:
       DB_PASSWORD: ${DB_PASSWORD}
       DB_DATABASE: ${DB_DATABASE}
 
-    volumes:
-      - .:/app
-      - /app/node_modules
-
     networks:
-      - todo_network
+      - devops-training
 
 networks:
-  todo_network:
+  devops-training:
     external: true
-    name: mysql-with-docker-compose_todo_network

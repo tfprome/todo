@@ -1,0 +1,701 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": ".",
+  "documentNamespace": "http://trivy.dev/filesystem/.-83c35d3d-5165-4578-94bc-7f854b5b2067",
+  "creationInfo": {
+    "creators": [
+      "Organization: aquasecurity",
+      "Tool: trivy-0.74.0"
+    ],
+    "created": "2026-09-16T04:02:48Z"
+  },
+  "packages": [
+    {
+      "name": "package-lock.json",
+      "SPDXID": "SPDXRef-Application-6401eeaf7b6ee158",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "primaryPackagePurpose": "APPLICATION",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.74.0",
+          "annotationDate": "2026-09-16T04:02:48Z",
+          "annotationType": "OTHER",
+          "comment": "Class: lang-pkgs"
+        },
+        {
+          "annotator": "Tool: trivy-0.74.0",
+          "annotationDate": "2026-09-16T04:02:48Z",
+          "annotationType": "OTHER",
+          "comment": "Type: npm"
+        }
+      ]
+    },
+    {
+      "name": "asynckit",
+      "SPDXID": "SPDXRef-Package-431134276b96b078",
+      "versionInfo": "0.4.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: package-lock.json",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/asynckit@0.4.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.74.0",
+          "annotationDate": "2026-09-16T04:02:48Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: asynckit@0.4.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.74.0",
+          "annotationDate": "2026-09-16T04:02:48Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: npm"
+        }
+      ]
+    },
+    {
+      "name": "axios",
+      "SPDXID": "SPDXRef-Package-e168975c34b76517",
+      "versionInfo": "1.6.8",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: package-lock.json",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/axios@1.6.8"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.74.0",
+          "annotationDate": "2026-09-16T04:02:48Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: axios@1.6.8"
+        },
+        {
+          "annotator": "Tool: trivy-0.74.0",
+          "annotationDate": "2026-09-16T04:02:48Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: npm"
+        }
+      ]
+    },
+    {
+      "name": "combined-stream",
+      "SPDXID": "SPDXRef-Package-2ade6d2712c6a7ea",
+      "versionInfo": "1.0.8",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: package-lock.json",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/combined-stream@1.0.8"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.74.0",
+          "annotationDate": "2026-09-16T04:02:48Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: combined-stream@1.0.8"
+        },
+        {
+          "annotator": "Tool: trivy-0.74.0",
+          "annotationDate": "2026-09-16T04:02:48Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: npm"
+        }
+      ]
+    },
+    {
+      "name": "delayed-stream",
+      "SPDXID": "SPDXRef-Package-60173ee9f83dc50c",
+      "versionInfo": "1.0.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: package-lock.json",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/delayed-stream@1.0.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.74.0",
+          "annotationDate": "2026-09-16T04:02:48Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: delayed-stream@1.0.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.74.0",
+          "annotationDate": "2026-09-16T04:02:48Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: npm"
+        }
+      ]
+    },
+    {
+      "name": "dotenv",
+      "SPDXID": "SPDXRef-Package-ba0f8f092570c702",
+      "versionInfo": "16.5.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: package-lock.json",
+      "licenseConcluded": "BSD-2-Clause",
+      "licenseDeclared": "BSD-2-Clause",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/dotenv@16.5.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.74.0",
+          "annotationDate": "2026-09-16T04:02:48Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: dotenv@16.5.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.74.0",
+          "annotationDate": "2026-09-16T04:02:48Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: npm"
+        }
+      ]
+    },
+    {
+      "name": "follow-redirects",
+      "SPDXID": "SPDXRef-Package-5c46ee39f535f81c",
+      "versionInfo": "1.15.6",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: package-lock.json",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/follow-redirects@1.15.6"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.74.0",
+          "annotationDate": "2026-09-16T04:02:48Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: follow-redirects@1.15.6"
+        },
+        {
+          "annotator": "Tool: trivy-0.74.0",
+          "annotationDate": "2026-09-16T04:02:48Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: npm"
+        }
+      ]
+    },
+    {
+      "name": "form-data",
+      "SPDXID": "SPDXRef-Package-23c0abc7f431c7db",
+      "versionInfo": "4.0.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: package-lock.json",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/form-data@4.0.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.74.0",
+          "annotationDate": "2026-09-16T04:02:48Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: form-data@4.0.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.74.0",
+          "annotationDate": "2026-09-16T04:02:48Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: npm"
+        }
+      ]
+    },
+    {
+      "name": "js-tokens",
+      "SPDXID": "SPDXRef-Package-80fc4c98ed5128ae",
+      "versionInfo": "4.0.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: package-lock.json",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/js-tokens@4.0.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.74.0",
+          "annotationDate": "2026-09-16T04:02:48Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: js-tokens@4.0.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.74.0",
+          "annotationDate": "2026-09-16T04:02:48Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: npm"
+        }
+      ]
+    },
+    {
+      "name": "loose-envify",
+      "SPDXID": "SPDXRef-Package-c9408fa183636235",
+      "versionInfo": "1.4.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: package-lock.json",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/loose-envify@1.4.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.74.0",
+          "annotationDate": "2026-09-16T04:02:48Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: loose-envify@1.4.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.74.0",
+          "annotationDate": "2026-09-16T04:02:48Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: npm"
+        }
+      ]
+    },
+    {
+      "name": "mime-db",
+      "SPDXID": "SPDXRef-Package-320f6a7efe6d914",
+      "versionInfo": "1.52.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: package-lock.json",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/mime-db@1.52.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.74.0",
+          "annotationDate": "2026-09-16T04:02:48Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: mime-db@1.52.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.74.0",
+          "annotationDate": "2026-09-16T04:02:48Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: npm"
+        }
+      ]
+    },
+    {
+      "name": "mime-types",
+      "SPDXID": "SPDXRef-Package-778cd816245b9310",
+      "versionInfo": "2.1.35",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: package-lock.json",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/mime-types@2.1.35"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.74.0",
+          "annotationDate": "2026-09-16T04:02:48Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: mime-types@2.1.35"
+        },
+        {
+          "annotator": "Tool: trivy-0.74.0",
+          "annotationDate": "2026-09-16T04:02:48Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: npm"
+        }
+      ]
+    },
+    {
+      "name": "proxy-from-env",
+      "SPDXID": "SPDXRef-Package-cf72ec4da03cff2",
+      "versionInfo": "1.1.0",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: package-lock.json",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/proxy-from-env@1.1.0"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.74.0",
+          "annotationDate": "2026-09-16T04:02:48Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: proxy-from-env@1.1.0"
+        },
+        {
+          "annotator": "Tool: trivy-0.74.0",
+          "annotationDate": "2026-09-16T04:02:48Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: npm"
+        }
+      ]
+    },
+    {
+      "name": "react",
+      "SPDXID": "SPDXRef-Package-6ec7358d155e9612",
+      "versionInfo": "18.3.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: package-lock.json",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/react@18.3.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.74.0",
+          "annotationDate": "2026-09-16T04:02:48Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: react@18.3.1"
+        },
+        {
+          "annotator": "Tool: trivy-0.74.0",
+          "annotationDate": "2026-09-16T04:02:48Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: npm"
+        }
+      ]
+    },
+    {
+      "name": "react-dom",
+      "SPDXID": "SPDXRef-Package-1da82e9fd691e180",
+      "versionInfo": "18.3.1",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: package-lock.json",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/react-dom@18.3.1"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.74.0",
+          "annotationDate": "2026-09-16T04:02:48Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: react-dom@18.3.1"
+        },
+        {
+          "annotator": "Tool: trivy-0.74.0",
+          "annotationDate": "2026-09-16T04:02:48Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: npm"
+        }
+      ]
+    },
+    {
+      "name": "scheduler",
+      "SPDXID": "SPDXRef-Package-84023455b04da58a",
+      "versionInfo": "0.23.2",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: package-lock.json",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/scheduler@0.23.2"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.74.0",
+          "annotationDate": "2026-09-16T04:02:48Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: scheduler@0.23.2"
+        },
+        {
+          "annotator": "Tool: trivy-0.74.0",
+          "annotationDate": "2026-09-16T04:02:48Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: npm"
+        }
+      ]
+    },
+    {
+      "name": "sonner",
+      "SPDXID": "SPDXRef-Package-c4f1ad87b8d32d9a",
+      "versionInfo": "1.4.41",
+      "supplier": "NOASSERTION",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "sourceInfo": "package found in: package-lock.json",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "MIT",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/sonner@1.4.41"
+        }
+      ],
+      "primaryPackagePurpose": "LIBRARY",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.74.0",
+          "annotationDate": "2026-09-16T04:02:48Z",
+          "annotationType": "OTHER",
+          "comment": "PkgID: sonner@1.4.41"
+        },
+        {
+          "annotator": "Tool: trivy-0.74.0",
+          "annotationDate": "2026-09-16T04:02:48Z",
+          "annotationType": "OTHER",
+          "comment": "PkgType: npm"
+        }
+      ]
+    },
+    {
+      "name": ".",
+      "SPDXID": "SPDXRef-Filesystem-1465386cfbe4e9c7",
+      "downloadLocation": "NONE",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "primaryPackagePurpose": "SOURCE",
+      "annotations": [
+        {
+          "annotator": "Tool: trivy-0.74.0",
+          "annotationDate": "2026-09-16T04:02:48Z",
+          "annotationType": "OTHER",
+          "comment": "SchemaVersion: 2"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Application-6401eeaf7b6ee158",
+      "relatedSpdxElement": "SPDXRef-Package-1da82e9fd691e180",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-6401eeaf7b6ee158",
+      "relatedSpdxElement": "SPDXRef-Package-6ec7358d155e9612",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-6401eeaf7b6ee158",
+      "relatedSpdxElement": "SPDXRef-Package-ba0f8f092570c702",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-6401eeaf7b6ee158",
+      "relatedSpdxElement": "SPDXRef-Package-c4f1ad87b8d32d9a",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Application-6401eeaf7b6ee158",
+      "relatedSpdxElement": "SPDXRef-Package-e168975c34b76517",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-Filesystem-1465386cfbe4e9c7",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-Filesystem-1465386cfbe4e9c7",
+      "relatedSpdxElement": "SPDXRef-Application-6401eeaf7b6ee158",
+      "relationshipType": "CONTAINS"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-1da82e9fd691e180",
+      "relatedSpdxElement": "SPDXRef-Package-6ec7358d155e9612",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-1da82e9fd691e180",
+      "relatedSpdxElement": "SPDXRef-Package-84023455b04da58a",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-1da82e9fd691e180",
+      "relatedSpdxElement": "SPDXRef-Package-c9408fa183636235",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-23c0abc7f431c7db",
+      "relatedSpdxElement": "SPDXRef-Package-2ade6d2712c6a7ea",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-23c0abc7f431c7db",
+      "relatedSpdxElement": "SPDXRef-Package-431134276b96b078",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-23c0abc7f431c7db",
+      "relatedSpdxElement": "SPDXRef-Package-778cd816245b9310",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-2ade6d2712c6a7ea",
+      "relatedSpdxElement": "SPDXRef-Package-60173ee9f83dc50c",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-6ec7358d155e9612",
+      "relatedSpdxElement": "SPDXRef-Package-c9408fa183636235",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-778cd816245b9310",
+      "relatedSpdxElement": "SPDXRef-Package-320f6a7efe6d914",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-84023455b04da58a",
+      "relatedSpdxElement": "SPDXRef-Package-c9408fa183636235",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-c4f1ad87b8d32d9a",
+      "relatedSpdxElement": "SPDXRef-Package-1da82e9fd691e180",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-c4f1ad87b8d32d9a",
+      "relatedSpdxElement": "SPDXRef-Package-6ec7358d155e9612",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-c9408fa183636235",
+      "relatedSpdxElement": "SPDXRef-Package-80fc4c98ed5128ae",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-e168975c34b76517",
+      "relatedSpdxElement": "SPDXRef-Package-23c0abc7f431c7db",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-e168975c34b76517",
+      "relatedSpdxElement": "SPDXRef-Package-5c46ee39f535f81c",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-e168975c34b76517",
+      "relatedSpdxElement": "SPDXRef-Package-cf72ec4da03cff2",
+      "relationshipType": "DEPENDS_ON"
+    }
+  ]
+}
