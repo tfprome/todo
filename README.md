@@ -1,3 +1,5 @@
+This is used for docker and AWS practice purpose
+
 # Three-Tier MERN Application with React.js, Node.js & MySQL
 
 <img src="./zimages/mern.jpg" alt="MERN Stack" width="100%" height="100%">
